@@ -1,6 +1,4 @@
 FROM python:3.7.12-slim AS builder
-ENV HTTP_PROXY http://127.0.0.1:3128
-ENV HTTPS_PROXY http://127.0.0.1:3128
 ADD . /app
 WORKDIR /app
 
